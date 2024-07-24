@@ -11,4 +11,10 @@
     border: 50px, solid, red;
     border-width: 50px 50px 100px 50px;
     background-color: antiquewhite;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.pixel {
+    background: white;
 }
