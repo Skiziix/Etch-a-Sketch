@@ -18,3 +18,7 @@
 .pixel {
     background: white;
 }
+
+.activated-pixel {
+    background: black;
+}
