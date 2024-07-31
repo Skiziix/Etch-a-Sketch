@@ -1,6 +1,6 @@
 let canvas = document.querySelector(".etchasketch");
 
-let numSquares = 100;
+let numSquares = Number(prompt("Enter the grid size (Max of 100): "));
 let squareDimension = 300 / numSquares;
 
 for (row=0; row<numSquares; row++) {
@@ -19,7 +19,7 @@ for (row=0; row<numSquares; row++) {
         pixel.addEventListener("contextmenu", 
             (event) => {
                 event.preventDefault();
-                event.target.className = "pixel";
+                event.target.classList.remove("activated-pixel");
             }
         );
 

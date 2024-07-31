@@ -15,9 +15,6 @@
     flex-flow: wrap;
 }
 
-.pixel {
-    background: white;
-}
 
 .activated-pixel {
     background: black;
